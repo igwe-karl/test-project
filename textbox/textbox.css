@@ -4,42 +4,48 @@ body{
     position: center;
 }
 .txt{
-    border-radius: 10px;
+    border-radius: 5px;
+    height: 50px;
+    border: 1px solid #80808087;
+    padding: 0 12px;
+    font-size: 16px;
+    box-shadow: none;
 }
 .container {
     width: 400px;
     height: 500px;
-    margin: auto;
+    margin: 25px auto;
     background-color:grey;
-    border: 1rem solid black;  
+    border: 1px solid black;  
+    border-radius: 20px;
+    padding: 10px;
 
 }
 .box {
     
-    margin: auto;
-    bottom: 11rem;
-    position: absolute;
-    padding-left: 5rem;
+ text-align: center;
 }
 .btn{
     background-color: brown;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     color: white;
     font-size: 15px;
+    height: 50px;
+    width: 100px;
     margin: 10px;
 }
-.inner1{
+.inner{
     float: left;
     width: 200px;
     height: auto;
     background-color: green;
     margin: 10px;
-    padding: 2px;
-    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
 }
 
-.inner2{
-    float: right;
+/* .inner2{
     width: 200px;
     height: auto;
     background-color: pink;
@@ -47,5 +53,9 @@ body{
     padding: 2px;
     border-radius: 10px;
     
-}
+} */
 
+.right{
+    float: right !important;
+    background-color: pink;
+}
