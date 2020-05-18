@@ -1,0 +1,51 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    position: center;
+}
+.txt{
+    border-radius: 10px;
+}
+.container {
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    background-color:grey;
+    border: 1rem solid black;  
+
+}
+.box {
+    
+    margin: auto;
+    bottom: 11rem;
+    position: absolute;
+    padding-left: 5rem;
+}
+.btn{
+    background-color: brown;
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+}
+.inner1{
+    float: left;
+    width: 200px;
+    height: auto;
+    background-color: green;
+    margin: 10px;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.inner2{
+    float: right;
+    width: 200px;
+    height: auto;
+    background-color: pink;
+    margin: 10px;
+    padding: 2px;
+    border-radius: 10px;
+    
+}
+
